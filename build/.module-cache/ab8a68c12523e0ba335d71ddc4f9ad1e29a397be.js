@@ -1,0 +1,19 @@
+var Matte = React.createClass({displayName: "Matte",
+  render: function() {
+    return (
+      		React.createElement("div", {style: 
+      			{
+      				color:'blue',
+      				width: 320,
+      			}, id: "container"}, 
+      					"iulusgusiugsgi"
+      		)
+    );
+  }
+});
+React.render(
+	React.createElement("div", {id: "background"}, 
+  		React.createElement(Matte, null)
+  	),
+  		document.getElementById('content')
+);

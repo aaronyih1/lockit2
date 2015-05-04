@@ -1,0 +1,14 @@
+*{
+	margin:0;
+}
+#container{
+	height: 100vh;
+	background-color: rgba(103,86,70,0.37);
+	margin-left: 50%;
+	position: absolute;
+	top:0em;
+}
+#bgImage{
+	width: cover;
+	height:100vh;
+}
